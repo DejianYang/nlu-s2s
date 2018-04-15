@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 from models import *
+from collections import OrderedDict
 
 features = {"word": {"vocab_size": 100, "emb_size": 5, "dropout_p": 0.0}}
 encoder = EncoderRNN(features=features, hidden_size=8, rnn_cell='lstm', n_layers=1, bidirectional=True)
@@ -14,7 +15,13 @@ src_lengths = torch.LongTensor([3, 2])
 
 encoder_outputs, encoder_hidden = encoder({'word': src_inputs}, src_lengths)
 print(encoder_outputs, encoder_hidden)
-
+model = nn.Sequential(OrderedDict([
+                  ('conv1', nn.Conv2d(1,20,5)),
+                  ('relu1', nn.ReLU()),
+                  ('conv2', nn.Conv2d(20,64,5)),
+                  ('relu2', nn.ReLU())
+                ]))
+print(model)
 
 decoder = DecoderRNN(100, 5, 8, 10, rnn_cell='lstm', use_attention=True, bidirectional=True)
 print(decoder)
@@ -36,4 +43,9 @@ output_logit2s, _, res_dict2 = label_decoder.forward(label_init_inputs, encoder_
 print(res_dict2[DecoderRNN.KEY_SEQUENCE])
 print(res_dict2[DecoderRNN.KEY_ATTN_SCORE])
 
-pass
+for param in encoder.parameters():
+    print(param.size())
+
+print('decoder params')
+for param in decoder.parameters():
+    print(param.size())

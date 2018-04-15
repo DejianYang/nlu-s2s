@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 import torch.nn.functional as F
+from collections import OrderedDict
 
 
 class Attention(nn.Module):
@@ -133,6 +134,8 @@ class EncoderRNN(BaseRNN):
         self.features_dict = features
         self.feature_embeddings = dict()
         input_size = 0
+
+        input_feature_modules = []
         for feat_name in features:
             feature = features[feat_name]
             feat_emb = Embeddings(vocab_size=feature['vocab_size'],
@@ -140,10 +143,15 @@ class EncoderRNN(BaseRNN):
                                   pad_idx=0,
                                   input_dropout_p=feature['dropout_p'])
             input_size += feature['emb_size']
-            self.feature_embeddings[feat_name] = feat_emb
+
+            if torch.cuda.is_available():
+                feat_emb.cuda()
+            input_feature_modules += [(feat_name, feat_emb)]
 
         super(EncoderRNN, self).__init__(rnn_cell, input_size, hidden_size,
                                          n_layers=n_layers, bidirectional=bidirectional, dropout_p=dropout_p)
+
+        self.feature_embeddings = nn.Sequential(OrderedDict(input_feature_modules))
         pass
 
     def forward(self, feat_inputs, input_lengths=None):
@@ -156,7 +164,7 @@ class EncoderRNN(BaseRNN):
         assert len(feat_inputs) == len(self.feature_embeddings)
         for feat_name in feat_inputs:
             feat_input_vars = feat_inputs[feat_name]
-            rnn_inputs += [self.feature_embeddings[feat_name].forward(feat_input_vars)]
+            rnn_inputs += [getattr(self.feature_embeddings, feat_name).forward(feat_input_vars)]
         # concat all feature embeddings
         rnn_inputs = torch.cat(rnn_inputs, dim=2)
         return self.rnn_forward(rnn_inputs, input_lengths)

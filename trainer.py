@@ -182,7 +182,7 @@ class Trainer(object):
             dataset=eval_set, batch_size=self.batch_size,
             sort=True, sort_within_batch=True,
             sort_key=lambda x: len(getattr(x, SRC_WORD_FIELD)),
-            device=device, repeat=False, train=True)
+            device=device, repeat=False, train=False)
 
         self.model.eval()
 

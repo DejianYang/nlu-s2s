@@ -95,6 +95,9 @@ def build_model(model_config, fields_dict):
 
     optimizer = Optimizer(optimizer=optim.Adam(params=model.parameters(), lr=model_config['lr']),
                           max_grad_norm=model_config['max_grad_norm'])
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer.optimizer, 1000, 0.8)
+    optimizer.set_scheduler(scheduler)
+
     logging.info(optimizer)
     logging.info('loss mask idx {}'.format(slot_vocab.stoi['<pad>']))
     loss = SeqLabelLoss(len(slot_vocab), slot_vocab.stoi['<pad>'], label_size=len(intent_vocab))
