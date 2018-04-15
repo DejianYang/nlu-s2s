@@ -232,7 +232,6 @@ class DecoderRNN(BaseRNN):
 
     def forward(self, input_vars, encoder_hidden=None, encoder_outputs=None, encoder_lengths=None):
         decoder_hidden = self._init_state(encoder_hidden)
-        print('decoder hidden', decoder_hidden)
         batch_size, step_size = input_vars.size()
         emb_inputs = self.embeddings(input_vars)
 
@@ -266,7 +265,7 @@ class SeqLabelDecoderRNN(DecoderRNN):
                  use_attention=False):
         super(SeqLabelDecoderRNN, self).__init__(vocab_size, emb_size, hidden_size, max_length, input_dropout_p,
                                                  rnn_cell, n_layers, bidirectional, dropout_p, use_attention)
-        self.cat_inputs = nn.Linear(emb_size+hidden_size, emb_size)
+        self.cat_inputs = nn.Linear(emb_size + hidden_size, emb_size)
 
     def forward(self, input_vars, encoder_hidden=None, encoder_outputs=None, encoder_lengths=None):
         # inputs only have sos flags
@@ -276,6 +275,7 @@ class SeqLabelDecoderRNN(DecoderRNN):
 
         # init decoder hidden
         decoder_hidden = self._init_state(encoder_hidden)
+
         # make sure the decoder steps is equal to the encoder
         max_step = encoder_outputs.size(1)
 
@@ -285,7 +285,6 @@ class SeqLabelDecoderRNN(DecoderRNN):
         for step in range(max_step):
             encoder_inputs = encoder_outputs[:, step, :]
             label_inputs = self.embeddings(label_vars)
-            print(label_inputs.size(), encoder_inputs.size())
             decoder_inputs = self.cat_inputs(torch.cat((label_inputs, encoder_inputs), dim=1))
             step_logits, decoder_hidden, attn_dist = self.forward_step(decoder_inputs,
                                                                        hidden=decoder_hidden,
@@ -301,16 +300,36 @@ class SeqLabelDecoderRNN(DecoderRNN):
 
         res_dict = dict()
         res_dict[DecoderRNN.KEY_ATTN_SCORE] = torch.stack(attention_dists, dim=0)
-        res_dict[DecoderRNN.KEY_SEQUENCE] = torch.stack(sequence_symbols, dim=0).squeeze(2)
+        res_dict[DecoderRNN.KEY_SEQUENCE] = torch.stack(sequence_symbols, dim=1).squeeze(2)
 
         return output_logits, decoder_hidden, res_dict
         pass
 
 
 class SlotLabelSeq2Seq(nn.Module):
-    def __init__(self):
+    KEY_PREDICT_INTENTS = 'predict_intents'
+
+    def __init__(self, encoder, decoder, classifier):
         super(SlotLabelSeq2Seq, self).__init__()
+        self.encoder = encoder
+        self.decoder = decoder
+        self.classifier = classifier
         pass
 
-    def forward(self, ):
+    def forward(self, src_feat_inputs, src_input_lengths, dec_input_vars):
+        encoder_outputs, encoder_hidden = self.encoder(src_feat_inputs, src_input_lengths)
+
+        output_logits, decoder_hidden, res_dict = self.decoder(dec_input_vars,
+                                                               encoder_hidden,
+                                                               encoder_outputs,
+                                                               src_input_lengths)
+
+        intent_hidden = encoder_hidden[0] if isinstance(encoder_hidden, tuple) else encoder_hidden
+        intent_hidden = torch.cat([intent_hidden[i] for i in range(intent_hidden.size(0))], dim=1)
+
+        # intent detection
+        intent_logits = self.classifier(intent_hidden)
+        predict_intents = intent_logits.topk(1)[1].squeeze(1)
+        res_dict[SlotLabelSeq2Seq.KEY_PREDICT_INTENTS] = predict_intents
+        return intent_logits, output_logits, res_dict
         pass

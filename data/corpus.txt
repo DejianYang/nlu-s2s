@@ -85,7 +85,7 @@
 请 放 歌	v v v	o o o	O O O	music.play
 
 想 与 你 好	v p l l	o o o o	O O O O	OTHERS
-请 帮 我 放 一 首 t h e   w e l l   i n   t h e   b e s t   g i r l s   r u n   a n d   r u n	v v r v m m eng eng eng x eng eng eng eng x eng eng x eng eng eng x eng eng eng eng x eng eng eng eng eng x eng eng eng x eng eng eng x eng eng eng	o song song o o o o o o o o o o o o o o o o o o o o singer singer singer o singer singer o o o o o o o o o o o o o o o	O O O O O O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
+请 帮 我 放 一 首 t h e _ w e l l _ i n _ t h e _ b e s t _ g i r l s _ r u n _ a n d _ r u n	v v r v m m eng eng eng x eng eng eng eng x eng eng x eng eng eng x eng eng eng eng x eng eng eng eng eng x eng eng eng x eng eng eng x eng eng eng	o song song o o o o o o o o o o o o o o o o o o o o singer singer singer o singer singer o o o o o o o o o o o o o o o	O O O O O O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 暂 时 不 放 歌 曲	d d d v n n	o o o o o o	O O O O O O	music.pause
 暂 停 播 放 歌 曲	d d n n n n	o o o o o o	O O O O O O	music.pause
 
@@ -463,7 +463,7 @@ e m i l y	eng eng eng eng eng	o o o o o	O O O O O	OTHERS
 华 君	nr nr	o o	O O	OTHERS
 打 电 话 给	l l l p	song song song o	O O O O	phone_call.make_a_phone_call
 敏	ag	o	B-contact_name	phone_call.make_a_phone_call
-凯 迪 拉 克 x t   s	nrt nrt nrt nrt eng eng x x	o o o o o o o o	O O O O O O O O	OTHERS
+凯 迪 拉 克 x t _ s	nrt nrt nrt nrt eng eng x x	o o o o o o o o	O O O O O O O O	OTHERS
 陕 西 广 场	ns ns n n	o o o o	B-destination I-destination I-destination E-destination	navigation.navigation
 
 我 要 去 金 家 一 路 4 7 1 号	r v v n n m m m m m m	song song o o o o o o o o o	O O O B-destination I-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
@@ -482,7 +482,7 @@ h e l l o	eng eng eng eng eng	o o o o o	O O O O O	OTHERS
 播 放 许 茹 芸 的 歌	v v nr nr nr uj n	o o singer singer singer o o	O O B-singer I-singer E-singer O O	music.play
 
 给 来 一 首 那 个 d j	p v m m r r eng eng	o o o o song song theme theme	O O O O O O B-theme E-theme	music.play
-给 来 首 l a   l a 的 歌	p v m eng eng x eng eng uj n	o o o o o o o o o o	O O O B-singer I-singer I-singer I-singer E-singer O O	music.play
+给 来 首 l a _ l a 的 歌	p v m eng eng x eng eng uj n	o o o o o o o o o o	O O O B-singer I-singer I-singer I-singer E-singer O O	music.play
 来 首 大 同 m e s s a g e 辣 辣 的 喊 麦	v m d d eng eng eng eng eng eng eng z z z n n	o o o o o o o o o o o o o o theme theme	O O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O O	music.play
 
 我 要 听 赵 雷 的 成 都	r v v nr nr uj ns ns	song song o singer singer o song song	O O O B-singer E-singer O B-song E-song	music.play
@@ -987,7 +987,7 @@ k a t e	eng eng eng eng	o o o o	O O O O	OTHERS
 
 我 要 去 汉 城 服 务 区	r v v ns ns n n n	song song o o o o o o	O O O B-destination I-destination I-destination I-destination E-destination	navigation.navigation
 你 那 有 红 的 家 伙	r r v a uj n n	o o o o o o o	O O O O O O O	OTHERS
-来 一 曲 u   s a y	v m m x x eng eng eng	o o o song song song song song	O O O B-song I-song I-song I-song E-song	music.play
+来 一 曲 u _ s a y	v m m x x eng eng eng	o o o song song song song song	O O O B-song I-song I-song I-song E-song	music.play
 不 要	df df	o o	O O	OTHERS
 
 冲 动 的 惩 罚	vn vn uj vn vn	song song song song song	B-song I-song I-song I-song E-song	music.play
@@ -1080,7 +1080,7 @@ b o n n i e	eng eng eng eng eng eng	singer singer singer singer singer singer	B-
 说 一 个 哥 们 说 要 给 你 唱 小 白 兔 乖 乖	v m m n n v v p r v nr nr nr d d	o o o o o o o o o o song song song song song	O O O O O O O O O O O O O O O	OTHERS
 
 取 消	v v	o o	O O	OTHERS
-b   b o x	x x eng eng eng	style style style style style	B-style I-style I-style I-style E-style	music.play
+b _ b o x	x x eng eng eng	style style style style style	B-style I-style I-style I-style E-style	music.play
 嘉 伟	nr nr	o o	O O	OTHERS
 江 南	ns ns	song song	B-song E-song	music.play
 没 有 啦	v v y	o o o	O O O	OTHERS
@@ -2123,7 +2123,7 @@ m p 三	eng eng m	o o o	O O O	music.play
 我 要 听 降 央 卓 玛 的 歌 曲	r v v v vg nr nr uj n n	song song o singer singer song song o o o	O O O B-singer I-singer I-singer E-singer O O O	music.play
 
 播 放 车 载 摇 滚	v v n n z z	o o theme theme style style	O O B-theme E-theme B-style E-style	music.play
-请 播 放 j u s t i n   b i e b e r 的 歌	v v v eng eng eng eng eng eng x eng eng eng eng eng eng uj n	o o o singer singer singer singer singer singer singer singer singer singer singer singer singer o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
+请 播 放 j u s t i n _ b i e b e r 的 歌	v v v eng eng eng eng eng eng x eng eng eng eng eng eng uj n	o o o singer singer singer singer singer singer singer singer singer singer singer singer singer o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
 播 放 后 街 男 孩 的 歌	v v f n n n uj n	o o singer singer song song o o	O O B-singer I-singer I-singer E-singer O O	music.play
 
 我 去 世 博 源	r v nr nr ng	o o o o o	O O B-destination I-destination E-destination	navigation.navigation
@@ -3853,7 +3853,7 @@ a m	eng eng	o o	O O	OTHERS
 请 走 右 侧 两 车 道	v v f f m n n	o o o o o o o	O O O O O O O	OTHERS
 人 家 才 问 你 话 呢	n n d v r n y	o o o o o o o	O O O O O O O	OTHERS
 爸 爸 知 豆 不 会 大 吧	n n n n v v a y	o o o o o o o o	O O O O O O O O	OTHERS
-y e   y e	eng eng x eng eng	o o o o o	O O O O O	OTHERS
+y e _ y e	eng eng x eng eng	o o o o o	O O O O O	OTHERS
 取 消	v v	o o	O O	navigation.cancel_navigation
 取 消 导 航	v v v v	o o o o	O O O O	navigation.cancel_navigation
 
@@ -3977,7 +3977,7 @@ y e   y e	eng eng x eng eng	o o o o o	O O O O O	OTHERS
 柚 子	n n	o o	O O	OTHERS
 霍 霍	nr nr	o o	O O	OTHERS
 b o n n i e	eng eng eng eng eng eng	singer singer singer singer singer singer	B-singer I-singer I-singer I-singer I-singer E-singer	music.play
-给 哥 放 一 首 s h a   l a	p nt nt m m eng eng eng x eng eng	o o o o o song song song song song song	O O O O O B-song I-song I-song I-song I-song E-song	music.play
+给 哥 放 一 首 s h a _ l a	p nt nt m m eng eng eng x eng eng	o o o o o song song song song song song	O O O O O B-song I-song I-song I-song I-song E-song	music.play
 取 消	v v	o o	O O	music.pause
 你 是	r v	o o	O O	OTHERS
 去 长 沙	v ns ns	o o o	O B-destination E-destination	navigation.navigation
@@ -4575,7 +4575,7 @@ b e y o n d 的 歌 曲	eng eng eng eng eng eng uj n n	singer singer singer sing
 
 体 面	n n	song song	B-song E-song	music.play
 歌 曲 甜 蜜	n n a a	o o song song	O O B-song E-song	music.play
-歌 曲 t o   m e	n n eng eng x eng eng	o o song song song song song	O O B-song I-song I-song I-song E-song	music.play
+歌 曲 t o _ m e	n n eng eng x eng eng	o o song song song song song	O O B-song I-song I-song I-song E-song	music.play
 前 任 三 歌 曲	n n m n n	song song song o o	O O O O O	music.play
 
 请 导 航 到 邮 政 储 蓄 所	v v v v n n n n c	o o o o o o o o o	O O O O B-destination I-destination I-destination I-destination E-destination	navigation.navigation
@@ -5239,7 +5239,7 @@ b o n n i e	eng eng eng eng eng eng	singer singer singer singer singer singer	B-
 
 智 象	n n	o o	O O	OTHERS
 导 航 去 龙 湖 长 楹 天 街	v v v ns ns a q ns ns	o o o o o o o o o	O O O B-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
-播 放 歌 曲 t w o   s t	n n n n eng eng eng x eng eng	o o o o o o o o o o	O O O O B-song I-song I-song I-song I-song E-song	music.play
+播 放 歌 曲 t w o _ s t	n n n n eng eng eng x eng eng	o o o o o o o o o o	O O O O B-song I-song I-song I-song I-song E-song	music.play
 取 消	v v	o o	O O	music.pause
 
 取 消 导 航	v v v v	o o o o	O O O O	navigation.cancel_navigation
@@ -5415,7 +5415,7 @@ a m	eng eng	o o	O O	OTHERS
 
 打 电 话 给 1 1 1 7 7 7 0 0 0 0 5 5 2 0 5 2 0	l l l p m m m m m m m m m m m m m m m m m	song song song o o o song song o o o o o o o o o o o o o	O O O O B-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
 1 7 9 0 0 0 0 5 2 0	m m m m m m m m m m	song song o o o o o o o o	B-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
-我 要 听 c i t y   t o   c i t y	r v v eng eng eng eng x eng eng x eng eng eng eng	song song o song song song song song song song song song song song song	O O O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
+我 要 听 c i t y _ t o _ c i t y	r v v eng eng eng eng x eng eng x eng eng eng eng	song song o song song song song song song song song song song song song	O O O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 
 梦 想 星 搭 档 常 石 磊 的 歌	n n n v v nr nr nr uj n	song song o o o singer singer singer o o	O O O O O B-singer I-singer E-singer O O	music.play
 梦 想 星 搭 档 常 石 磊 的 歌	n n n v v nr nr nr uj n	song song o o o singer singer singer o o	O O O O O B-singer I-singer E-singer O O	music.play
@@ -5450,7 +5450,7 @@ a m	eng eng	o o	O O	OTHERS
 能 能	v v	o o	O O	OTHERS
 蓝 田 县 前 卫 村	nr nr nr n n zg	o o o o o o	B-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 为 上 一 层	p f m m	o o o o	O O O O	OTHERS
-j a y   j a y	eng eng eng x eng eng eng	song song song song song song song	B-song I-song I-song I-song I-song I-song E-song	music.play
+j a y _ j a y	eng eng eng x eng eng eng	song song song song song song song	B-song I-song I-song I-song I-song I-song E-song	music.play
 
 体 面	n n	song song	B-song E-song	music.play
 我 想 听 体 面	r v v n n	song song o song song	O O O B-song E-song	music.play
@@ -5610,8 +5610,8 @@ h a l o	eng eng eng eng	o o o o	O O O O	OTHERS
 温 顺 臭 婆 娘	nr nr a n n	o o o o o	O O O O O	OTHERS
 二	m	o	O	OTHERS
 a i l e e 的 歌	eng eng eng eng eng uj n	singer singer singer singer singer o o	B-singer I-singer I-singer I-singer E-singer O O	music.play
-放 一 首 s i n i   n e 的 歌	v m m eng eng eng eng x eng eng uj n	o o o o o o o o o o o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
-放 一 首 s i m p l y   s u n d a y 的 歌	v m m eng eng eng eng eng eng x eng eng eng eng eng eng uj n	o o o singer singer singer singer singer singer singer singer singer singer singer singer singer o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
+放 一 首 s i n i _ n e 的 歌	v m m eng eng eng eng x eng eng uj n	o o o o o o o o o o o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
+放 一 首 s i m p l y _ s u n d a y 的 歌	v m m eng eng eng eng eng eng x eng eng eng eng eng eng uj n	o o o singer singer singer singer singer singer singer singer singer singer singer singer singer o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
 播 放 一 首 我 们 不 一 样	v v m m r r d r r	o o o o song song song song song	O O O O B-song I-song I-song I-song E-song	music.play
 播 放 歌 曲	n n n n	o o o o	O O O O	music.play
 放 一 首 我 们 都 一 样	v m m r r d r r	o o o song song song song song	O O O B-song I-song I-song I-song E-song	music.play
@@ -6392,7 +6392,7 @@ c o c o	eng eng eng eng	o o o o	O O O O	OTHERS
 哦 知 道 就 好 傻 *	zg v v d a a x	o o o o o o o	O O O O O O O	OTHERS
 我 说 你 是 个 傻 * 好 吧	r v r v q a x a y	song song o o o o o o o	O O O O O O O O O	OTHERS
 请 播 放 几 度 梦 回 大 唐	v v v d d v v nz nz	o o o song song song song song song	O O O B-song I-song I-song I-song I-song E-song	music.play
-播 放 m y   c i t y 乐 才 的 几 度 梦 回 大 唐	v v eng eng x eng eng eng eng nr nr uj d d v v nz nz	o o song song song song song song song o o o song song song song song song	O O O O O O O O O O O O B-song I-song I-song I-song I-song E-song	music.play
+播 放 m y _ c i t y 乐 才 的 几 度 梦 回 大 唐	v v eng eng x eng eng eng eng nr nr uj d d v v nz nz	o o song song song song song song song o o o song song song song song song	O O O O O O O O O O O O B-song I-song I-song I-song I-song E-song	music.play
 
 播 放 一 下	v v m m	o o o o	O O O O	music.play
 f a y	eng eng eng	song song song	B-song I-song E-song	music.play
@@ -6512,7 +6512,7 @@ g r a c e	eng eng eng eng eng	o o o o o	O O O O O	OTHERS
 我 想 听 有 没 有 那 么 一 首 歌 会 让 你 想 起 我	r v v v v v r r m m m v v r v v r	song song o song song song o o o o o o o o song song o	O O O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 
 播 放 叫 你 一 声 买 了	v v v r m m v ul	o o o o o o o o	O O O O O O O O	OTHERS
-播 放 叫 你 一 声 m y   l o v e	v v v r m m eng eng x eng eng eng eng	o o song song song song song song song song song song song	O O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
+播 放 叫 你 一 声 m y _ l o v e	v v v r m m eng eng x eng eng eng eng	o o song song song song song song song song song song song	O O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 播 放 现 代 爱 情	v v t t n n	o o song song theme theme	O O B-song I-song I-song E-song	music.play
 播 放 现 代 爱 情 故 事	v v t t i i i i	o o song song song song song song	O O B-song I-song I-song I-song I-song E-song	music.play
 
@@ -6614,7 +6614,7 @@ g r a c e	eng eng eng eng eng	o o o o o	O O O O O	OTHERS
 给 我 放 首 音 乐 听 听	p r v v n n v v	song song o o o o o o	O O O O O O O O	music.play
 放 一 点 d j 的 歌 曲	v m m eng eng uj n n	o o o theme theme o o o	O O O B-theme E-theme O O O	music.play
 放 一 放 几 首 d j 的 中 文 歌 曲	l l l m m eng eng uj ns ns ns ns	o o o o o theme theme o language language o o	O O O O O B-theme E-theme O B-language E-language O O	music.play
-多 放 一 点 d j   d j 的 中 文 歌 曲	m v m m eng eng x eng eng uj ns ns ns ns	o o o o theme theme o theme theme o language language o o	O O O O B-theme E-theme O B-theme E-theme O B-language E-language O O	music.play
+多 放 一 点 d j _ d j 的 中 文 歌 曲	m v m m eng eng x eng eng uj ns ns ns ns	o o o o theme theme o theme theme o language language o o	O O O O B-theme E-theme O B-theme E-theme O B-language E-language O O	music.play
 d j 国 语 歌 曲	eng eng nz nz n n	theme theme language language o o	B-theme E-theme B-language E-language O O	music.play
 d j	eng eng	theme theme	B-theme E-theme	music.play
 播 放 几 首 d j 中 文 歌 曲	v v m m eng eng ns ns ns ns	o o o o theme theme language language o o	O O O O B-theme E-theme B-language E-language O O	music.play
@@ -7153,7 +7153,7 @@ d j	eng eng	theme theme	B-theme E-theme	music.play
 维 多 利 亚 领 秀 西 门	ns ns ns ns n n ns ns	o o o o o o o o	B-destination I-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 叙 永 收 费 站	ns ns n n n	o o o o o	B-destination I-destination I-destination I-destination E-destination	navigation.navigation
 
-t h e   t o w e r	eng eng eng x eng eng eng eng eng	o o o o o o o o o	O O O O O O O O O	OTHERS
+t h e _ t o w e r	eng eng eng x eng eng eng eng eng	o o o o o o o o o	O O O O O O O O O	OTHERS
 徐 勇	nr nr	o o	O O	OTHERS
 打 个 电 话	v q n n	o o o o	O O O O	phone_call.make_a_phone_call
 阿 康	nr nr	o o	B-contact_name E-contact_name	phone_call.make_a_phone_call
@@ -8089,7 +8089,7 @@ j o e y	eng eng eng eng	o o o o	O O O O	OTHERS
 哦	zg	o	O	OTHERS
 
 去 深 圳	v ns ns	o o o	O B-destination E-destination	navigation.navigation
-t h a n k   y o u 翻 译 过 来 啥 意 思	eng eng eng eng eng x eng eng eng v v t t n n n	o o o o o o o o o o o o o o o o	O O O O O O O O O O O O O O O O	OTHERS
+t h a n k _ y o u 翻 译 过 来 啥 意 思	eng eng eng eng eng x eng eng eng v v t t n n n	o o o o o o o o o o o o o o o o	O O O O O O O O O O O O O O O O	OTHERS
 o k	eng eng	o o	O O	OTHERS
 三 嗯	m e	o o	O O	OTHERS
 合 正	a a	o o	O O	OTHERS
@@ -8274,7 +8274,7 @@ s u z	eng eng eng	o o o	O O O	OTHERS
 拨 打 1 8 9 0 0 0 0 0 9 1 6 电 话	v v m m m m m m m m m m m n n	o o o o o o o o o o o o o o o	O O B-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num E-phone_num O O	phone_call.make_a_phone_call
 
 导 航 去 澳 门	v v v ns ns	o o o o o	O O O B-destination E-destination	navigation.navigation
-打 开 a d   a s	v v eng eng x eng eng	o o o o o o o	O O O O O O O	OTHERS
+打 开 a d _ a s	v v eng eng x eng eng	o o o o o o o	O O O O O O O	OTHERS
 打 开 f m	v v eng eng	o o o o	O O O O	OTHERS
 开 蓝 牙	v ns ns	o o o	O O O	OTHERS
 拨 打 1 0 0 8 6	v v m m m m m	o o o o o o o	O O B-phone_num I-phone_num I-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
@@ -8374,7 +8374,7 @@ s u z	eng eng eng	o o o	O O O	OTHERS
 呼 叫 爸 老 爸	v v n n n	o o o song song	O O B-contact_name I-contact_name E-contact_name	phone_call.make_a_phone_call
 
 我 要 听 孙 露 的 歌	r v v nr nr uj n	song song o singer singer o o	O O O B-singer E-singer O O	music.play
-s   w a l l o w 的 歌	x x eng eng eng eng eng eng uj n	o o o o o o o o o o	B-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
+s _ w a l l o w 的 歌	x x eng eng eng eng eng eng uj n	o o o o o o o o o o	B-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
 我 要 听 孙 露 的 歌	r v v nr nr uj n	song song o singer singer o o	O O O B-singer E-singer O O	music.play
 
 打 电 话 给 从 这 边 到 你 那 个 个 位 置	l l l p p r r v r r r q v v	song song song o o o o o o song song o o o	O O O O O O O O O O O O O O	OTHERS
@@ -10114,7 +10114,7 @@ d j 凤 舞 九 天	eng eng nr nr t t	theme theme song song song song	B-theme E-
 
 呼 叫 1 3 8 0 0 0 0 0 8 1 6	v v m m m m m m m m m m m	o o o o song song song song song o o o o	O O B-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
 呼 叫 6 5 6 0 3 3	v v m m m m m m	o o o o o o o o	O O B-phone_num I-phone_num I-phone_num I-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
-小 瑞 科 技  	nr nr n n x	o o o o o	B-destination I-destination I-destination E-destination O	navigation.navigation
+小 瑞 科 技	nr nr n n	o o o o	B-destination I-destination I-destination E-destination	navigation.navigation
 
 小 婧	nr nr	o o	O O	OTHERS
 不 要 老 穿 了 下 午 拿 过 来 给 他 配 了 鸡 吧	df df a v ul t t v t t p r v ul n y	o o o o o o o o o o o o o o o o	O O O O O O O O O O O O O O O O	OTHERS
@@ -11376,7 +11376,7 @@ d j 歌 曲	eng eng n n	theme theme o o	B-theme E-theme O O	music.play
 
 天 有 海 迈	nr nr nr v	o o o o	O O O O	OTHERS
 m c 天 佑	eng eng nz nz	singer singer singer singer	B-singer I-singer I-singer E-singer	music.play
-m   c 天 佑 的 歌 曲	x x x nz nz uj n n	o o o singer singer o o o	B-singer I-singer I-singer I-singer E-singer O O O	music.play
+m _ c 天 佑 的 歌 曲	x x x nz nz uj n n	o o o singer singer o o o	B-singer I-singer I-singer I-singer E-singer O O O	music.play
 喊 麦	n n	theme theme	O O	OTHERS
 喊 麦 歌 曲	n n n n	theme theme o o	B-theme E-theme O O	music.play
 拥 抱 明 天	v v t t	song song song song	B-song I-song I-song E-song	music.play
@@ -11758,7 +11758,7 @@ m u s i c	eng eng eng eng eng	o o o o o	O O O O O	music.play
 你 好 啊	l l zg	o o o	O O O	OTHERS
 你 好 啊	l l zg	o o o	O O O	OTHERS
 立 青	nr nr	o o	O O	OTHERS
-唱 一 首 j o l l y   v 的 你 好	v m m eng eng eng eng eng x eng uj l l	o o o singer singer singer singer singer singer singer o o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer E-singer O B-song E-song	music.play
+唱 一 首 j o l l y _ v 的 你 好	v m m eng eng eng eng eng x eng uj l l	o o o singer singer singer singer singer singer singer o o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer E-singer O B-song E-song	music.play
 关 闭 音 乐	v v n n	o o o o	O O O O	music.pause
 关 闭 歌 曲	v v n n	o o o o	O O O O	music.pause
 
@@ -12090,7 +12090,7 @@ a m	eng eng	o o	O O	OTHERS
 到 遂 宁 涪 江 五 桥	v ns ns ns ns ns ns	o o o o o o o	O B-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 取 消 打 电 话	v v l l l	o o song song song	O O O O O	phone_call.cancel
 没 有 啦 谢 谢	v v y nr nr	o o o o o	O O O O O	OTHERS
-你 要 说 t h a n k   u	r c c eng eng eng eng eng x x	o o o o o o o o o o	O O O O O O O O O O	OTHERS
+你 要 说 t h a n k _ u	r c c eng eng eng eng eng x x	o o o o o o o o o o	O O O O O O O O O O	OTHERS
 
 取 消 导 航	v v v v	o o o o	O O O O	navigation.cancel_navigation
 走 在 秋 天	v p t t	o o o o	O O O O	OTHERS
@@ -12601,9 +12601,9 @@ d j 歌 曲	eng eng n n	theme theme o o	B-theme E-theme O O	music.play
 我 要 听 男 佣	r v v n n	song song o song song	O O O B-song E-song	music.play
 我 要 听 南 泥 湾	r v v ns ns ns	song song o song song song	O O O B-song I-song E-song	music.play
 
-i   m i s s   y o u	x x eng eng eng eng x eng eng eng	song song song song song song song song song song	B-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
+i _ m i s s _ y o u	x x eng eng eng eng x eng eng eng	song song song song song song song song song song	B-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 o k	eng eng	o o	O O	OTHERS
-我 要 听 i   m i s s   y o u	r v v eng x eng eng eng eng x eng eng eng	song song o song song song song song song song song song song	O O O B-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
+我 要 听 i _ m i s s _ y o u	r v v eng x eng eng eng eng x eng eng eng	song song o song song song song song song song song song song	O O O B-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 导 航 东 光 翡 翠 城	v v n n n n n	o o o o o o o	O O B-destination I-destination I-destination I-destination E-destination	navigation.navigation
 
 易 欣 的 歌	nr nr uj n	singer singer o o	B-singer E-singer O O	music.play
@@ -12753,7 +12753,7 @@ o k	eng eng	o o	O O	OTHERS
 叮 当 你 好 叮 当 你 好	o o l l o o l l	o o o o o o o o	O O O O O O O O	OTHERS
 我 要 听 歌	r v v v	song song o o	O O O O	music.play
 我 要 听 佳 梅 壹	r v v a nr nr	song song o song song song	O O O B-song I-song E-song	music.play
-我 要 听 加 油 狗 你 好 我 要 听 加 油 m e   g o	r v v v v n l l r v v v v eng eng x eng eng	song song o o o o o o song song o o o o o o o o	O O O B-song I-song E-song O O O O O B-song I-song I-song I-song I-song I-song E-song	music.play
+我 要 听 加 油 狗 你 好 我 要 听 加 油 m e _ g o	r v v v v n l l r v v v v eng eng x eng eng	song song o o o o o o song song o o o o o o o o	O O O B-song I-song E-song O O O O O B-song I-song I-song I-song I-song I-song E-song	music.play
 
 放 一 首 刘 德 华 的 音 乐	v m m nr nr nr uj n n	o o o singer singer singer o o o	O O O B-singer I-singer E-singer O O O	music.play
 放 一 首 不 再 犹 豫	v m m d d a a	o o o song song song song	O O O B-song I-song I-song E-song	music.play
@@ -15094,7 +15094,7 @@ a d a s	eng eng eng eng	o singer singer singer	O O O O	OTHERS
 打 开 音 乐	v v n n	o o o o	O O O O	music.play
 打 开 音 乐	v v n n	o o o o	O O O O	music.play
 播 放	v v	o o	O O	music.play
-播 放 l a d y   g a g a 的 歌 曲	v v eng eng eng eng x eng eng eng eng uj n n	o o singer singer singer singer singer singer singer singer singer o o o	O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O O	music.play
+播 放 l a d y _ g a g a 的 歌 曲	v v eng eng eng eng x eng eng eng eng uj n n	o o singer singer singer singer singer singer singer singer singer o o o	O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O O	music.play
 
 我 要 到 观 音 堂 汽 车 站	r v v n n n n n n	song song o song song o o song song	O O O B-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 取 消	v v	o o	O O	navigation.cancel_navigation
@@ -15420,7 +15420,7 @@ v ω v	x x x	o o o	O O O	OTHERS
 
 我 想 听 张 宇 的 歌	r v v nr nr uj n	song song o singer singer o o	O O O B-singer E-singer O O	music.play
 我 想 听 我 们 不 一 样	r v v r r d r r	song song o song song song song song	O O O B-song I-song I-song I-song E-song	music.play
-我 想 要 听 m y   c i t y 的 歌	r v v v eng eng x eng eng eng eng uj n	song song o o song song song song song song song o o	O O O O B-song I-song I-song I-song I-song I-song E-song O O	music.play
+我 想 要 听 m y _ c i t y 的 歌	r v v v eng eng x eng eng eng eng uj n	song song o o song song song song song song song o o	O O O O B-song I-song I-song I-song I-song I-song E-song O O	music.play
 
 襄 阳 市	ns ns n	o o o	B-destination I-destination E-destination	navigation.navigation
 你 电 话 换 了 个 名 字	r n n v ul q n n	o o o o o o o o	O O O O O O O O	OTHERS
@@ -15702,7 +15702,7 @@ d j	eng eng	theme theme	B-theme E-theme	music.play
 你 都 会 啥 好 呀 打 电 话	r d v r e e l l l	o o o o o o song song song	O O O O O O O O O	OTHERS
 
 打 电 话 给 高 九 州	l l l p a ns ns	song song song o o song song	O O O O B-contact_name I-contact_name E-contact_name	phone_call.make_a_phone_call
-打 电 话 给 s e   w 高 九 州	l l l p eng eng x eng a ns ns	song song song o o o o o o song song	O O O O B-contact_name I-contact_name I-contact_name I-contact_name I-contact_name I-contact_name E-contact_name	phone_call.make_a_phone_call
+打 电 话 给 s e _ w 高 九 州	l l l p eng eng x eng a ns ns	song song song o o o o o o song song	O O O O B-contact_name I-contact_name I-contact_name I-contact_name I-contact_name I-contact_name E-contact_name	phone_call.make_a_phone_call
 关 闭 f m	v v eng eng	o o o o	O O O O	OTHERS
 南 昌 市 水 果 批 发 市 场	ns ns ns n n n n n n	o o o singer singer o o o o	B-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 
@@ -15851,7 +15851,7 @@ d j	eng eng	theme theme	B-theme E-theme	music.play
 我 要 听 带 你 去 m o n e y 土 耳 其	r v v n n n eng eng eng eng eng ns ns ns	song song o o o o o o o o o o o o	O O O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 我 要 听 赞 元 街	r v v v m n	song song o o o o	O O O B-song I-song E-song	music.play
 好 不 好	l l l	song song song	B-song I-song E-song	music.play
-t h e   t r u t h	eng eng eng x eng eng eng eng eng	song song song song song song song song song	B-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
+t h e _ t r u t h	eng eng eng x eng eng eng eng eng	song song song song song song song song song	B-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 退 出	v v	o o	O O	music.pause
 
 呼 叫 6 6 5	v v m m m	o o o o o	O O B-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
@@ -16413,7 +16413,7 @@ a m	eng eng	o o	O O	OTHERS
 未 来 几 天 有 雨 吗	t t m m v n y	o o o o o o o	O O O O O O O	OTHERS
 取 消	v v	o o	O O	music.pause
 
-我 要 听 d c 的 h e y   b a b y	r v v eng eng uj eng eng eng x eng eng eng eng	song song o o o o song song song song song song song song	O O O O O O B-song I-song I-song I-song I-song I-song I-song E-song	music.play
+我 要 听 d c 的 h e y _ b a b y	r v v eng eng uj eng eng eng x eng eng eng eng	song song o o o o song song song song song song song song	O O O O O O B-song I-song I-song I-song I-song I-song I-song E-song	music.play
 我 要 听 老 婆 老 婆 我 爱 你	r v v n n n n l l l	song song o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
 我 说 我 要 听 老 婆 老 婆 我 爱 你	r v r v v n n n n l l l	song song song song o song song song song song song song	O O O O O B-song I-song I-song I-song I-song I-song E-song	music.play
 
@@ -16502,7 +16502,7 @@ a m	eng eng	o o	O O	OTHERS
 打 电 话	l l l	song song song	O O O	phone_call.make_a_phone_call
 
 孙 伟	nr nr	o o	O O	OTHERS
-你 给 我 来 个 s h y   g u y	r p r v q eng eng eng x eng eng eng	song song song o o song song song song song song song	O O O O O B-song I-song I-song I-song I-song I-song E-song	music.play
+你 给 我 来 个 s h y _ g u y	r p r v q eng eng eng x eng eng eng	song song song o o song song song song song song song	O O O O O B-song I-song I-song I-song I-song I-song E-song	music.play
 田 海 鹏	nr nr nr	o o o	O O O	OTHERS
 打 电 话 给	l l l p	song song song o	O O O O	phone_call.make_a_phone_call
 导 航	v v	o o	O O	navigation.open
@@ -17095,7 +17095,7 @@ j u n e	eng eng eng eng	o o o o	O O O O	OTHERS
 意 外	a a	song song	B-song E-song	music.play
 请 拨 意 外	v v a a	o o song song	O O B-song E-song	music.play
 嗯	e	o	O	OTHERS
-请 播 y e   w a n g	v v eng eng x eng eng eng eng	o o o o o o o o o	O O B-song I-song I-song I-song I-song I-song E-song	music.play
+请 播 y e _ w a n g	v v eng eng x eng eng eng eng	o o o o o o o o o	O O B-song I-song I-song I-song I-song I-song E-song	music.play
 一	m	o	O	OTHERS
 哦	zg	o	O	OTHERS
 一	m	o	O	OTHERS
@@ -17624,8 +17624,8 @@ g i n	eng eng eng	singer singer o	O O O	OTHERS
 播 放 庄 心 妍 的 歌 曲	v v nr nr nr uj n n	o o singer singer singer o o o	O O B-singer I-singer E-singer O O O	music.play
 
 嘿 嘿	o o	o o	O O	OTHERS
-我 要 听 h e y   h e y	r v v eng eng eng x eng eng eng	song song o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
-我 要 听 h e y   h e y	r v v eng eng eng x eng eng eng	song song o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
+我 要 听 h e y _ h e y	r v v eng eng eng x eng eng eng	song song o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
+我 要 听 h e y _ h e y	r v v eng eng eng x eng eng eng	song song o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
 我 要 听 嘿 嘿 哈 哈	r v v o o o o	song song o song song song song	O O O B-song I-song I-song E-song	music.play
 
 取 消 导 航	v v v v	o o o o	O O O O	navigation.cancel_navigation
@@ -17886,8 +17886,8 @@ b	x	o	O	OTHERS
 
 你 想 了 吗 一 起 来	r v ul y m v v	o o o o o o o	O O O O O O O	OTHERS
 我 到 汇 东 桥 的 路	r v n n n uj n	o o o o o o o	O O B-destination I-destination E-destination O O	navigation.navigation
-g   a i	x x eng eng	o o o o	B-singer I-singer I-singer E-singer	music.play
-g   a i	x x eng eng	o o o o	B-singer I-singer I-singer E-singer	music.play
+g _ a i	x x eng eng	o o o o	B-singer I-singer I-singer E-singer	music.play
+g _ a i	x x eng eng	o o o o	B-singer I-singer I-singer E-singer	music.play
 取 消	v v	o o	O O	music.pause
 音 乐	n n	o o	O O	music.play
 
@@ -19346,7 +19346,7 @@ e u l a	eng eng eng eng	o o o o	O O O O	OTHERS
 
 请 播 放 周 华 健 的 歌	v v v nr nr nr uj n	o o o singer singer singer o o	O O O B-singer I-singer E-singer O O	music.play
 播 放 张 芯 的 歌	v v nr nr uj n	o o singer singer o o	O O B-singer E-singer O O	music.play
-请 播 放 j u s t i n   b i e b e r 的 歌	v v v eng eng eng eng eng eng x eng eng eng eng eng eng uj n	o o o singer singer singer singer singer singer singer singer singer singer singer singer singer o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
+请 播 放 j u s t i n _ b i e b e r 的 歌	v v v eng eng eng eng eng eng x eng eng eng eng eng eng uj n	o o o singer singer singer singer singer singer singer singer singer singer singer singer singer o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O O	music.play
 
 导 航 去 蒙 城 县 政 府	v v v ns ns ns n n	o o o o o o o o	O O O B-destination I-destination I-destination I-destination E-destination	navigation.navigation
 去 蒙 城 县 龙 盛 首 府	v ns ns ns nz nz n n	o o o o o o o o	O B-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
@@ -19667,7 +19667,7 @@ d j 版 江 湖 大 盗	eng eng n ns ns n n	theme theme o singer singer o o	B-th
 
 我 要 听 回 想 当 年	r v v v v t t	song song o song song song song	O O O B-song I-song I-song E-song	music.play
 我 要 听 回 想 当 年	r v v v v t t	song song o song song song song	O O O B-song I-song I-song E-song	music.play
-来 一 首 m y   l o v e	v m m eng eng x eng eng eng eng	o o o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
+来 一 首 m y _ l o v e	v m m eng eng x eng eng eng eng	o o o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
 
 一 直 被 了 2 0 0 多 米 到 达 安 全 地 带 之 后 有 媒 体 采 访 刘 大 脑 袋 一 偏 我 做	d d p ul m m m m m v v an an n n f f v n n v v nr nr n n d d r v	o o o o o o o o o o o o o o o o o o o o o o o o o o o o song song	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	OTHERS
 还 来 不 及 呢	d v v v y	o o o o o	O O O O O	OTHERS
@@ -20462,7 +20462,7 @@ d j	eng eng	theme theme	B-theme E-theme	music.play
 吴 啸 芸	nr nr nr	o o o	B-contact_name I-contact_name E-contact_name	phone_call.make_a_phone_call
 
 播 放 李 健 的 歌 曲	v v nr nr uj n n	o o singer singer o o o	O O B-singer E-singer O O O	music.play
-播 放 睡 吧 播 y   e e 歌 曲	v v v y v eng x eng eng n n	o o o o o o o o o o o	O O B-song I-song I-song I-song I-song I-song E-song O O	music.play
+播 放 睡 吧 播 y _ e e 歌 曲	v v v y v eng x eng eng n n	o o o o o o o o o o o	O O B-song I-song I-song I-song I-song I-song E-song O O	music.play
 播 放 睡 吧 布 娃 娃	v v v y nr nr nr	o o song song song age age	O O B-song I-song I-song I-song E-song	music.play
 
 霸 州 市 第 二 人 民 医 院	ns ns ns m m n n n n	o o o o o o o o o	B-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
@@ -20511,7 +20511,7 @@ d j	eng eng	theme theme	B-theme E-theme	music.play
 
 我 好 郁 闷	r a a a	o o o o	O O O O	OTHERS
 我 好 爱 你	r a v r	o o song song	O O O O	OTHERS
-我 想 听 y o u n g   t h u g 的 y e s	r v v eng eng eng eng eng x eng eng eng eng uj eng eng eng	song song o singer singer singer singer singer singer singer singer singer singer o o o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O B-song I-song E-song	music.play
+我 想 听 y o u n g _ t h u g 的 y e s	r v v eng eng eng eng eng x eng eng eng eng uj eng eng eng	song song o singer singer singer singer singer singer singer singer singer singer o o o o	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer O B-song I-song E-song	music.play
 亚 瑟 的 音 乐	nrt nrt uj n n	singer singer o o o	B-singer E-singer O O O	music.play
 夜 色 的 音 乐	n n uj n n	song song o o o	B-singer E-singer O O O	music.play
 全 程 1 8 . 1 公 里 大 约 需 要 2 9 分 钟	n n m m m m q q d d v v m m q q	o o o o o o o o o o o o o o o o	O O O O O O O O O O O O O O O O	OTHERS
@@ -20868,7 +20868,7 @@ t a p e	eng eng eng eng	o o o o	O O O O	OTHERS
 我 要 去 公 司	r v v n n	song song o custom_destination custom_destination	O O O B-custom_destination E-custom_destination	navigation.navigation
 
 你 是 个 二 货	r v m m n	o o o o o	O O O O O	OTHERS
-我 要 听 歌 曲 c o u l d   u	r v nr nr nr eng eng eng eng eng x x	song song o o o song song song song song song song	O O O O O B-song I-song I-song I-song I-song I-song E-song	music.play
+我 要 听 歌 曲 c o u l d _ u	r v nr nr nr eng eng eng eng eng x x	song song o o o song song song song song song song	O O O O O B-song I-song I-song I-song I-song I-song E-song	music.play
 我 想 听 许 巍 的 歌 曲	r v v nr nr uj n n	song song o singer singer o o o	O O O B-singer E-singer O O O	music.play
 关 闭 音 乐	v v n n	o o o o	O O O O	music.pause
 
@@ -20921,8 +20921,8 @@ t a p e	eng eng eng eng	o o o o	O O O O	OTHERS
 打 电 话 给 书 写 的 好	l l l p n n uj a	song song song o o o o o	O O O O O O O O	phone_call.make_a_phone_call
 
 播 放 邓 丽 君 的 歌 曲 一 个 老 板 是 谁 吗 加 强 人 家	v v nr nr nr uj n n m m n n v r y v v n n	o o singer singer singer o o o o o o o o o o o o o o	O O B-singer I-singer E-singer O O O O O O O O O O O O O O	music.play
-放 一 个 y e   y e	v m m eng eng x eng eng	o o o o o o o o	O O O O O O O O	music.play
-一 个 y e   y e	m m eng eng x eng eng	o o o o o o o	O O O O O O O	music.play
+放 一 个 y e _ y e	v m m eng eng x eng eng	o o o o o o o o	O O O O O O O O	music.play
+一 个 y e _ y e	m m eng eng x eng eng	o o o o o o o	O O O O O O O	music.play
 放 梁 静 茹 的 夜 夜 夜 夜	v nr nr nr uj t t t t	o singer singer singer o song song song song	O B-singer I-singer E-singer O B-song I-song E-song O	music.play
 
 导 航 去 门 头 沟	v v v n n n	o o o o o o	O O O B-destination I-destination E-destination	navigation.navigation
@@ -23035,7 +23035,7 @@ j o e y	eng eng eng eng	o o o o	O O O O	OTHERS
 
 播 放 歌 曲 三 月 里 的 小 雨	n n n n m m f uj nr nr	o o o o song song song song song song	O O O O B-song I-song I-song I-song I-song E-song	music.play
 播 放 卓 依 婷 的 歌 曲 三 月 里 的 小 雨	v v nr nr nr uj n n m m f uj nr nr	o o singer singer singer o o o song song song song song song	O O B-singer I-singer E-singer O O O B-song I-song I-song I-song I-song E-song	music.play
-播 放 于 文 文 的 t r o u b l e   i s   a f r i e n d	v v p nz nz uj eng eng eng eng eng eng eng x eng eng x eng eng eng eng eng eng eng	o o singer singer singer o o o o o o o o o o o o o o o o o o o	O O B-singer I-singer E-singer O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
+播 放 于 文 文 的 t r o u b l e _ i s _ a f r i e n d	v v p nz nz uj eng eng eng eng eng eng eng x eng eng x eng eng eng eng eng eng eng	o o singer singer singer o o o o o o o o o o o o o o o o o o o	O O B-singer I-singer E-singer O B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song	music.play
 
 普 兰 店 万 达 广 场	nz nz nz nz nz n n	o o o o o o o	B-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 万 达 广 场	nz nz n n	o o o o	B-destination I-destination I-destination E-destination	navigation.navigation
@@ -23073,7 +23073,7 @@ d j 专 辑	eng eng n n	theme theme o o	B-theme E-theme O O	music.play
 播 放 苍 天	v v nr nr	o o song song	O O B-song E-song	music.play
 苍 天 一 声 笑	nr nr m m v	song song o o o	B-song I-song I-song I-song E-song	music.play
 播 放 沧 海 一 声 笑	v v ns ns m m v	o o song song song song song	O O B-song I-song I-song I-song E-song	music.play
-播 放 j   c 的 歌 曲	v v x x eng uj n n	o o o o o o o o	O O O O O O O O	music.play
+播 放 j _ c 的 歌 曲	v v x x eng uj n n	o o o o o o o o	O O O O O O O O	music.play
 
 你 打 电 话 成 都	r l l l ns ns	o song song song song song	O O O O B-contact_name E-contact_name	phone_call.make_a_phone_call
 放 一 首 七 五 三 吧	v m m m m m y	o o o singer singer singer o	O O O B-singer I-singer E-singer O	music.play
@@ -23109,7 +23109,7 @@ d j 专 辑	eng eng n n	theme theme o o	B-theme E-theme O O	music.play
 
 请 播 放 尚 雯 婕 的 歌	v v v nr nr nr uj n	o o o singer singer singer o o	O O O B-singer I-singer E-singer O O	music.play
 请 播 放	v v v	o o o	O O O	music.play
-请 播 放 i   k n e w   y o u   w e r e   t r o u b l e	v v v x x eng eng eng eng x eng eng eng x eng eng eng eng x eng eng eng eng eng eng eng	o o o singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer	music.play
+请 播 放 i _ k n e w _ y o u _ w e r e _ t r o u b l e	v v v x x eng eng eng eng x eng eng eng x eng eng eng eng x eng eng eng eng eng eng eng	o o o singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer singer	O O O B-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer I-singer E-singer	music.play
 
 导 航 陆 军 总 医 院	v v nr nr n n n	o o o o o o o	O O B-destination I-destination I-destination I-destination E-destination	navigation.navigation
 导 航 广 州 总 医 院 附 属 1 5 7 医 院	v v ns ns n n n b b m m m n n	o o o o o o o o o o o o o o	O O B-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
@@ -23195,7 +23195,7 @@ d j 专 辑	eng eng n n	theme theme o o	B-theme E-theme O O	music.play
 我 要 听	r v v	song song o	O O O	music.play
 打 电 话 给	l l l p	song song song o	O O O O	phone_call.make_a_phone_call
 帮 我 导 一 下 碧 海 云 天	v r v m m ns ns nr nr	song song o o o o o o o	O O O O O B-destination I-destination I-destination E-destination	navigation.navigation
-有 j   c 乐	v eng x eng nr	o o o o o	O O O O O	OTHERS
+有 j _ c 乐	v eng x eng nr	o o o o o	O O O O O	OTHERS
 帮 我 搜 索 一 下 碧 海 云 间 洗 浴 城 导 一 下	v r v v m m ns ns n n nz nz nz v m m	song song o o o o o o o o o o o o o o	O O O O O O B-destination I-destination I-destination I-destination I-destination I-destination E-destination O O O	navigation.navigation
 
 关 闭 导 航	v v v v	o o o o	O O O O	navigation.cancel_navigation
@@ -23351,7 +23351,7 @@ b o n n i e	eng eng eng eng eng eng	singer singer singer singer singer singer	B-
 赵 传	nr nr	singer singer	B-singer E-singer	music.play
 
 放 音 乐	v n n	o o o	O O O	music.play
-播 放 c d   c d	v v eng eng x eng eng	o o o o o o o	O O B-song I-song I-song I-song E-song	music.play
+播 放 c d _ c d	v v eng eng x eng eng	o o o o o o o	O O B-song I-song I-song I-song E-song	music.play
 播 放 稻 香	v v n n	o o song song	O O B-song E-song	music.play
 
 我 要 听 音 乐	r v v n n	song song o o o	O O O O O	music.play
@@ -24160,7 +24160,7 @@ a m	eng eng	o o	O O	OTHERS
 好 好 好 给 我 姐 打 电 话	d d a p r n l l l	song song song song song o song song song	O O O O B-contact_name E-contact_name O O O	phone_call.make_a_phone_call
 到 双 流 机 场 t 1 航 站 楼 停 车 场	v n n n n eng eng n n n n n n	o o o o o o o o o o o o o	O B-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 附 近 小 区	f f n n	o o o o	O O O O	OTHERS
-到 t   t 停 车 场	v eng x x n n n	o o o o o o o	O B-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
+到 t _ t 停 车 场	v eng x x n n n	o o o o o o o	O B-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 
 打 电 话 给 5 5 1	l l l p m m m	song song song o o o o	O O O O B-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
 打 电 话 给 5 5 1	l l l p m m m	song song song o o o o	O O O O B-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
@@ -24282,7 +24282,7 @@ a m	eng eng	o o	O O	OTHERS
 百 世 快 运 电 话	n n n n n n	o o o o o o	B-contact_name I-contact_name I-contact_name E-contact_name O O	phone_call.make_a_phone_call
 导 航 南 海 广 场	v v ns ns n n	o o o o o o	O O B-destination I-destination I-destination E-destination	navigation.navigation
 
-播 放 d   z 音 乐	v v x x x n n	o o o o o o o	O O O O O O O	music.play
+播 放 d _ z 音 乐	v v x x x n n	o o o o o o o	O O O O O O O	music.play
 播 放 d j 音 乐	v v eng eng n n	o o theme theme o o	O O B-theme E-theme O O	music.play
 播 放 d j	v v eng eng	o o theme theme	O O B-theme E-theme	music.play
 
@@ -24461,7 +24461,7 @@ g i n	eng eng eng	singer singer o	O O O	OTHERS
 
 取 消	v v	o o	O O	OTHERS
 炼 石	n n	o o	O O	OTHERS
-我 想 听 o h   y e a h	r v v eng eng x eng eng eng eng	song song o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
+我 想 听 o h _ y e a h	r v v eng eng x eng eng eng eng	song song o song song song song song song song	O O O B-song I-song I-song I-song I-song I-song E-song	music.play
 开 发 区 税 务 局	n n n nt nt nt	o o o o o o	B-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 
 去 亚 龙 湾 站	v ns ns ns v	o o o o o	O B-destination I-destination I-destination E-destination	navigation.navigation
@@ -24621,11 +24621,11 @@ h a z e	eng eng eng eng	song song song song	O O O O	OTHERS
 搜 索 歌 曲 m a p s	v v n n eng eng eng eng	o o o o song song song song	O O O O B-song I-song I-song E-song	music.play
 取 消	v v	o o	O O	music.pause
 搜 索 歌 曲 m a s s	v v n n eng eng eng eng	o o o o song song song song	O O O O B-song I-song I-song E-song	music.play
-搜 索 歌 曲 t h e   m a s s	v v n n eng eng eng x eng eng eng eng	o o o o song song song song song song song song	O O O O B-song I-song I-song I-song I-song I-song I-song E-song	music.play
-放 首 歌 曲 t h e   m a s s	v n n n eng eng eng x eng eng eng eng	o o o o song song song song song song song song	O O O O B-song I-song I-song I-song I-song I-song I-song E-song	music.play
+搜 索 歌 曲 t h e _ m a s s	v v n n eng eng eng x eng eng eng eng	o o o o song song song song song song song song	O O O O B-song I-song I-song I-song I-song I-song I-song E-song	music.play
+放 首 歌 曲 t h e _ m a s s	v n n n eng eng eng x eng eng eng eng	o o o o song song song song song song song song	O O O O B-song I-song I-song I-song I-song I-song I-song E-song	music.play
 搜 索 歌 曲 o m g	v v n n eng eng eng	o o o o song song song	O O O O B-song I-song E-song	music.play
-a   l i t t l e   m a n   h a s   m e e t i n g 搜 索 歌 曲	x x eng eng eng eng eng eng x eng eng eng x eng eng eng x eng eng eng eng eng eng eng v v n n	o o o o o o o o o o o o o o o o o o o singer singer o o o o o o o	B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song O O O O	music.play
-搜 索 歌 曲 t h e   m a s s	v v n n eng eng eng x eng eng eng eng	o o o o song song song song song song song song	O O O O B-song I-song I-song I-song I-song I-song I-song E-song	music.play
+a _ l i t t l e _ m a n _ h a s _ m e e t i n g 搜 索 歌 曲	x x eng eng eng eng eng eng x eng eng eng x eng eng eng x eng eng eng eng eng eng eng v v n n	o o o o o o o o o o o o o o o o o o o singer singer o o o o o o o	B-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song I-song E-song O O O O	music.play
+搜 索 歌 曲 t h e _ m a s s	v v n n eng eng eng x eng eng eng eng	o o o o song song song song song song song song	O O O O B-song I-song I-song I-song I-song I-song I-song E-song	music.play
 导 航 到 天 鹅 湖 商 务 酒 店	v v v ns ns ns nt nt nt nt	o o o o o o o o scene scene	O O O B-destination I-destination I-destination I-destination I-destination I-destination E-destination	navigation.navigation
 
 我 要 打 电 话	r v l l l	song song song song song	O O O O O	phone_call.make_a_phone_call
@@ -24695,7 +24695,7 @@ a m	eng eng	o o	O O	OTHERS
 拨 打 5 1 1	v v m m m	o o o o o	O O B-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
 拨 打 5 5 1	v v m m m	o o o o o	O O B-phone_num I-phone_num E-phone_num	phone_call.make_a_phone_call
 有 塞 车	v ns ns	o o o	O O O	OTHERS
-小 瑞 科 技  	nr nr n n x	o o o o o	B-destination I-destination I-destination E-destination O	navigation.navigation
+小 瑞 科 技	nr nr n n	o o o o	B-destination I-destination I-destination E-destination	navigation.navigation
 
 放 一 个 歌 曲	v m m n n	o o o o o	O O O O O	music.play
 我 想 听 说 散 就 散	r v v v v d v	song song song song song song song	O O O B-song I-song I-song E-song	music.play
@@ -25867,7 +25867,7 @@ j u n e	eng eng eng eng	o o o o	O O O O	OTHERS
 你 好 6 0 0 米 后 右 转 你 好 叮 当	l l m m m m f n n l l o o	o o o o o o o o o o o o o	O O O O O O O O O O O O O	OTHERS
 
 8 8 8	m m m	o o o	O O O	OTHERS
-b o w   a r r o w s 吗	eng eng eng x eng eng eng eng eng eng y	o o o o o o o o o o o	O O O O O O O O O O O	OTHERS
+b o w _ a r r o w s 吗	eng eng eng x eng eng eng eng eng eng y	o o o o o o o o o o o	O O O O O O O O O O O	OTHERS
 b y 吗	eng eng y	o o o	O O O	OTHERS
 放 白 龙 吗	v v n y	o o o o	O B-song I-song E-song	music.play
 播 放 白 龙 马	v v nr nr nr	o o song song song	O O B-song I-song E-song	music.play

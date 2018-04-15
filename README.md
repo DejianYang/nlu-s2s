@@ -1,3 +1,2 @@
 # nlu-s2s
-intent detection and slot filling
-NLU with SEQ2SEQ
+intent detection and slot filling by Seq2Seq-Attention

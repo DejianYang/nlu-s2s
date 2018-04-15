@@ -1,0 +1,24 @@
+{
+  "data_dir": "./data/",
+  "expt_dir": "./data/output",
+
+  "features": {
+    "src_word": {"emb_size":64, "dropout_p":0.3},
+    "src_tag1": {"emb_size":32, "dropout_p":0.3},
+    "src_tag2": {"emb_size":32, "dropout_p":0.3},
+    "tgt_slot": {"emb_size":64, "dropout_p":0.3}},
+
+  "rnn_cell": "lstm",
+  "hidden_size": 128,
+  "n_layers":1,
+  "bidirectional":true,
+  "dropout_p": 0.3,
+  "lr": 0.001,
+  "init_w":0.08,
+  "max_grad_norm":3.0,
+
+  "batch_size": 50,
+  "num_epochs": 10,
+  "display_freq": 100,
+  "ckpt_freq": 200
+}
